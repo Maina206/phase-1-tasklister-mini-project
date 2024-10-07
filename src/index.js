@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create a new div for each task
     const taskDiv = document.createElement('div');
     taskDiv.classList.add('taskItem'); 
-    taskDiv.dataset.priority = priority;
+    taskDiv.priority = priority;
 
     // Create a checkbox to mark task as complete
     const checkbox = document.createElement('input');
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Sort based on data-priority (High -> Medium -> Low)
     tasks.sort((a, b) => {
       const priorities = { 'high': 1, 'medium': 2, 'low': 3 };
-      return priorities[a.dataset.priority] - priorities[b.dataset.priority];
+      return priorities[a.priority] - priorities[b.priority];
     });
   
     taskList.innerHTML = '';

@@ -66,6 +66,10 @@ section {
     border-radius: 5px;
     margin-bottom: 10px;
   }
+
+  #priority {
+    width: 95%
+  }
   
   /* Submit Button Styles */
   input[type="submit"] {
