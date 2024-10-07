@@ -33,7 +33,7 @@ This is a JS mini-project that involves creating a mini tasklister projects that
 
 
 ## Live Link
-
+* https://maina206.github.io/phase-1-tasklister-mini-project/
 
 *****
 ## Dependencies
