@@ -24,7 +24,7 @@ This is a JS mini-project that involves creating a mini tasklister projects that
 
 ### Getting Files
 * Fork the repo
-- Create a new branch in your terminal (git checkout -b improve-feature)
+- Clone the repo to your local machine
 - Install the prerequisites
 - Make appropriate changes in file(s)
 - stage all the changes (git add .)
