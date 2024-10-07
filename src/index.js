@@ -85,11 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
     tasks.forEach(task => {
       // Change text color based on priority
       const taskTitleElement = task.querySelector('.taskTitle');
-      if (task.dataset.priority === 'high') {
+      if (task.priority === 'high') {
         taskTitleElement.style.color = 'red';    
-      } else if (task.dataset.priority === 'medium') {
+      } else if (task.priority === 'medium') {
         taskTitleElement.style.color = 'yellow'; 
-      } else if (task.dataset.priority === 'low') {
+      } else if (task.priority === 'low') {
         taskTitleElement.style.color = 'green';  
       }
   
